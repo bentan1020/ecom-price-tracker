@@ -40,3 +40,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     - https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
 - Responsive carousel library package
     - https://www.npmjs.com/package/react-responsive-carousel
+- Cheerio - a tool to parse HTML and XML pages
+    - to get the ID of something, let's say the title
+        - Inspect element
+        - Usually it's span#productTitle on Amazon
+        - productTitle is the id of that span
+        - scrape it like this: const title = $('#productTitle').text().trim();
