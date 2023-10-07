@@ -88,7 +88,7 @@ const transporter = nodemailer.createTransport({
         user: process.env.EMAIL_USERNAME,
         pass: process.env.EMAIL_PASSWORD,
     },
-    maxConnections: 1
+    maxConnections: 5
 })
 
 export const sendEmail = async (emailContent: EmailContent, sendTo: string[]) => {
