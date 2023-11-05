@@ -5,6 +5,8 @@
 - [x] Notify users whenever an amazon item's price drops
 - [x] Enter an amazon product link and you'll see all of it's history
 
+![Screenshot 2023-11-05 at 6 04 04 PM](https://github.com/bentan1020/priceWise/assets/73725152/49b9db74-5d55-4d56-a7fc-39215aa77d2f)
+
 ### Tech Stack
 - MongoDB
 - NextJS (Typescript)
